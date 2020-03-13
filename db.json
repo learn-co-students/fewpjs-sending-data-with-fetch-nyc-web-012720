@@ -29,7 +29,23 @@
       "id": 2
     }
   ],
-  "users": [],
+  "users": [
+    {
+      "name": "bob",
+      "email": "bob@bob.bob",
+      "id": 1
+    },
+    {
+      "name": "bob",
+      "email": "bob@bob.bob",
+      "id": 2
+    },
+    {
+      "name": "bob",
+      "email": "bob@bob.bob",
+      "id": 3
+    }
+  ],
   "robots": [
     {
       "robotName": "C8-09S100K",
