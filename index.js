@@ -15,9 +15,6 @@ function submitData(name, email) {
         body.append(id)
     })
     .catch(error => {
-        // let body = document.getElementsByTagName('body')[0]
         body.append(error.message)
     })   
 }
-
-// submitData('Alejo', 'Jimmy@gmail.com')
