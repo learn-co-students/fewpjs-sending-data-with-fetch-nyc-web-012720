@@ -37,14 +37,16 @@ console.log("feeling better")
 // })
 
 let body = document.querySelector('body')
-function appendJson(json){
-    let li = document.createElement('li')
+// function appendJson(json){
+const appendJson = (json) => {
+    const li = document.createElement('li')
     li.innerHTML = json
     body.appendChild(li)
 }
 
-function submitData(userName, userEmail) {
-    return fetch("http://localhost:3000/users", {
+// function submitData(userName, userEmail) {
+const submitData = (userName, userEmail) => 
+    fetch("http://localhost:3000/users", {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
@@ -61,5 +63,5 @@ function submitData(userName, userEmail) {
         alert('Unauthorized Access');
         appendJson(err.message)
     })
-}
+// }
 
